@@ -15,6 +15,7 @@ void loop() {
   tone(buzzer,1000);
   digitalWrite(11,HIGH);
   delay(1000);
+  digitalWrite(11,LOW);
   } else {
   noTone(buzzer);
   digitalWrite(11,LOW);
