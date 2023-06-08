@@ -4,6 +4,9 @@ Ad:Batıkan Ege Sayın
 Sınıf:10/B
 Numara:2600
 
+Amacı:
+Son zamanlarda çok fazla deprem olduğu için bu projede insanları herhangi bir sarsıntıda ses ve ışık çıkararak insanları uyarmasını sağlıyor.
+
 Kullanılan Malzemeler:
 Jumper Kablo
 Arduino Uno
