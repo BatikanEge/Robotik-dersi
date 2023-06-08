@@ -47,6 +47,9 @@ Devrenin Şeması:
 [https://wokwi.com/projects/new/arduino-uno](https://wokwi.com/projects/366981500045211649)
 
 Projenin Sunumları:
-Word:[ROBOTİK VE KODLAMA.docx](https://github.com/BatikanEge/Robotik-dersi/files/11690442/ROBOTIK.VE.KODLAMA.docx)
+Word:[ROBOTİK VE KODLAMA.docx](https://github.com/BatikanEge/Robotik-dersi/files/11690855/ROBOTIK.VE.KODLAMA.docx)
 
-PowerPoint:[ROBOTİK VE KODLAMA.pptx](https://github.com/BatikanEge/Robotik-dersi/files/11690439/ROBOTIK.VE.KODLAMA.pptx)
+
+PowerPoint:[ROBOTİK VE KODLAMA.pptx](https://github.com/BatikanEge/Robotik-dersi/files/11690851/ROBOTIK.VE.KODLAMA.pptx)
+
+Kaynak:https://maker.robotistan.com/deprem-alarmi-yapimi/
