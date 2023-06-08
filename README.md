@@ -1,6 +1,6 @@
 # Robotik-dersi
 Deprem Alarmı Projesi
-Ad:Batıkan Ege Sayın
+Ad Soyad:Batıkan Ege Sayın
 Sınıf:10/B
 Numara:2600
 
