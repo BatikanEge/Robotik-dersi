@@ -13,6 +13,32 @@ Mpu6050
 Direnç
 Breadboard
 
+Devrenin Kodları:
+#include <MPU6050.h> //Mpu6050 Kütüphanesi
+#include <Wire.h> // wire.h Kütüphanesi
+MPU6050 MPU;
+int GyroX , GyroY , GyroZ; //İnt değer olduğunu gösteriyoruz
+int buzzer = 10; // buzzer a 10 sayısında bir int değer atıyoruz
+void setup() {
+  pinMode(11,OUTPUT);  //11 e çıkış pinini giriyoruz
+  Serial.begin(9600);
+  Wire.begin();
+  MPU.initialize();
+}
+void loop() {
+  MPU.getRotation(&GyroX, &GyroY, &GyroZ); 
+  if(GyroX< -1000 ||GyroX> 1000 || GyroY>1000 || GyroY< -1000 || GyroZ >1000 || GyroZ < -1000 ) {  //eğer verdiğimiz rotasyonlardan bir sarsıntı algılarsa
+  tone(buzzer,1000); // buzzer a ses veriyoruz
+  digitalWrite(11,HIGH); // 11 e yüksek değerini veriyoruz
+  delay(1000); // 1 saniye arayla 
+  digitalWrite(11,LOW); //11 e düşük değerini veriyoruz
+  } else { //değilse
+  noTone(buzzer); // buzzer a ses vermiyoruz
+  digitalWrite(11,LOW); // 11 e düşük pinini veriyoruz
+  }
+}
+
+
 
 Devrenin Şeması:
 [https://wokwi.com/projects/new/arduino-uno](https://wokwi.com/projects/366981500045211649)
