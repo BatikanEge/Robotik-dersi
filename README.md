@@ -41,7 +41,7 @@ void loop() {
   }
 }
 
-
+Youtube:https://www.youtube.com/watch?v=m8rigIWvVcE
 
 Devrenin Şeması:
 [https://wokwi.com/projects/new/arduino-uno](https://wokwi.com/projects/366981500045211649)
